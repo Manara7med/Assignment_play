@@ -1,0 +1,29 @@
+var rondom = 80;
+var g=prompt("guess number")
+
+while (true)
+{
+    if(g==rondom)
+    {
+    alert("I've win");
+        break
+    }
+    if(g>rondom)
+    {
+       if((g-rondom)>10)
+           alert("you are far away");
+        else
+       alert("you are soon");
+   
+      }
+    
+    if(g<rondom)
+    {
+       if((g-rondom)>10)
+           alert("you are far away");
+        else
+       alert("you are soon");
+        
+      }
+   break
+}
